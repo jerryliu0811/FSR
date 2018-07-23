@@ -17,26 +17,26 @@ BEFORE YOU START:
 
 HOW TO START:  
 <ol>
-    1. set Android-Yun wifi AP mode to client mode and make it connect to TARGET_SSID  
+    <li>1. set Android-Yun wifi AP mode to client mode and make it connect to TARGET_SSID  
     <ol>
-        1.1 press the wifi reset button about 5~10 seconds and  
+        <li>press the wifi reset button about 5~10 seconds and  
             then Android-Yun will be reset to wifi AP mode  
-        1.2 use your smartphone to connect the wifi which  
+        <li>use your smartphone to connect the wifi which  
             SSID is 'Android Yun-XXXXXXXX'  
-        1.3 open your browser and go to '192.168.240.1' (Android-Yun setting page) 
+        <li>open your browser and go to '192.168.240.1' (Android-Yun setting page) 
             and the password is 'arduino'  
-        1.4 select TARGET_SSID that You want to connect to  
+        <li>select TARGET_SSID that You want to connect to  
     </ol>
-    2. put arduino code(.ino) into Anduino-Yun first  
+    <li>put arduino code(.ino) into Anduino-Yun first  
        because Bridge is triggered by arduino  
-    3. connect to Android-Yun directly and run your program  
+    <li> connect to Android-Yun directly and run your program  
     <ol>
-        3.1 get one laptop and also connect to TARGET_SSID  
-        3.2 go to the TARGET_SSID setting page  
+        <li>get one laptop and also connect to TARGET_SSID  
+        <li>go to the TARGET_SSID setting page  
             (different manufacturer's AP will have different setting page IP)  
             and get the Arduino-Yun's INTERNAL_IP  
-        3.3 open terminal and then 'ssh root@INTERNAL_IP' with password 'arduino'  
-        3.4 place your code and run your program  
+        <li>open terminal and then 'ssh root@INTERNAL_IP' with password 'arduino'  
+        <li>place your code and run your program  
     </ol>
 </ol>
 HOW TO CREATE YOUR APPLICATION:  
