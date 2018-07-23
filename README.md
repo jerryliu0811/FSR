@@ -11,7 +11,7 @@ For example:  Bridge.get("incomming_ODFname",  incomming, 10);
 這是因為用起判定是否為新資料的變數incomming_ODFname，是一個序列數字介於 0~10000，序列數字不同時，代表ODFname內有新資料需取回。
 
 BEFORE YOU START:
-    1. prepare an Arduino-Yun board with OS version 1.5.3 and
+    1. prepare an Arduino-Yun board with OS version 1.5.3 and  
        plug in one micro SD card for storage extension
     2. prepare the FSR(Force Sensitive Resistor) and place it on the Breadboard
 
