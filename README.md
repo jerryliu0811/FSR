@@ -1,7 +1,7 @@
 Arduino-da
-
+===
 注意事項：
-
+---
 在Arduino端，用以判別是不是新進來的ODF value的變數 incomming_ODFname，其用以存放的字串陣列長度，必須為10 bytes。
 For example:  char incomming[10]={'\0'};
 
@@ -11,13 +11,16 @@ For example:  Bridge.get("incomming_ODFname",  incomming, 10);
 這是因為用起判定是否為新資料的變數incomming_ODFname，是一個序列數字介於 0~10000，序列數字不同時，代表ODFname內有新資料需取回。
 
 BEFORE YOU START:
-    1. prepare an Arduino-Yun board with OS version 1.5.3 and  
-       plug in one micro SD card for storage extension  
-    2. prepare the FSR(Force Sensitive Resistor) and place it on the Breadboard  
-
-HOW TO START:  
+---
 <ol>
-    <li>1. set Android-Yun wifi AP mode to client mode and make it connect to TARGET_SSID  
+    <li>prepare an Arduino-Yun board with OS version 1.5.3 and  
+       plug in one micro SD card for storage extension  
+    <li>prepare the FSR(Force Sensitive Resistor) and place it on the Breadboard  
+</ol>
+HOW TO START:
+---
+<ol>
+    <li>set Android-Yun wifi AP mode to client mode and make it connect to TARGET_SSID  
     <ol>
         <li>press the wifi reset button about 5~10 seconds and  
             then Android-Yun will be reset to wifi AP mode  
@@ -39,8 +42,12 @@ HOW TO START:
         <li>place your code and run your program  
     </ol>
 </ol>
-HOW TO CREATE YOUR APPLICATION:  
-    1. rewrite 'custom.py' and set the IOTTALK_HOST  
-    2. create Device Model 'FSR' with Device Feature 'Force-I'  
+
+HOW TO CREATE YOUR APPLICATION:
+---
+<ol>
+    <li>rewrite 'custom.py' and set the IOTTALK_HOST  
+    <li>create Device Model 'FSR' with Device Feature 'Force-I'  
        on IOTTALK_HOST  
+</ol>
 
