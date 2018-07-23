@@ -17,6 +17,7 @@ BEFORE YOU START:
        plug in one micro SD card for storage extension  
     <li>prepare the FSR(Force Sensitive Resistor) and place it on the Breadboard  
 </ol>
+
 HOW TO START:
 ---
 <ol>
